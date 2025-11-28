@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wdth@75..100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: 100;
+    background-color: #1B1726;
+}
+
+img {
+    max-width: 50%;
+}
+
+.container {
+       max-width: 12009px;
+       margin: 0 auto;
+}
+
+.header {
+    background-image: url(imagenes/menu\ contacto.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+    padding: 80px 0;
+}
+
+.menu {
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+
+.logo {
+      color: greenyellow;
+      font-size: 25px;
+      font-weight: 800;
+      text-transform: uppercase;
+}
+
+.menu .navbar ul li {
+       position: relative;
+       float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #FFFFFF;
+    font-weight: 600;
+    display: block;
+}
+
+.menu .navbar ul li a:hover {
+    color: #778;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-content {
+    display: flex;
+}
+
+.header-txt {
+    flex-basis: 50%;
+}
+
+.header-txt h1 {
+    font-size: 60px;
+    color: #FFFFFF;
+    line-height: 1.3;
+    margin-bottom: 25px;
+}
+
+.header-txt span {
+    color: #FF5A2C;
+}
+
+.header-txt p {
+    font-size: 17px;
+    color: #E0E0E0;
+    margin-bottom: 25px;
+}
+
+.webs {
+    padding: 100px 0;
+    text-align: center;
+}
+
+h2 {
+    color: #FFFFFF;
+    font-size: 35px;
+    margin-bottom: 45px;
+}
+
+h3 {
+    color: #E0E0E0;
+    font-size: 50px;
+    margin-bottom: 45px;
+    text-justify: auto;
+}
+
+h4 {
+    color: #E0E0E0;
+    font-size: 50px;
+    margin-bottom: 45px;
+    text-justify: auto;
+}
+
+.webs-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.link1 ul {
+    display: flex;
+}
+
+.link1 ul li {
+    position: relative;
+       float: left;
+}
+
+.link1 ul li > a {
+    font-size: 30px;
+    padding: 50px;
+    color: #FFFFFF;
+    font-weight: 600;
+    display: block;
+} 
+
+.link1 ul li > a:hover {
+          color: green;
+}
+
+.link2 ul {
+    display: flex;
+}
+
+.link2 ul li {
+    position: relative;
+       float: left;
+}
+
+.link2 ul li > a {
+    font-size: 30px;
+    padding: 50px;
+    color: #FFFFFF;
+    font-weight: 600;
+    margin-block: 30px;
+} 
+
+.link2 ul li > a:hover {
+          color: orangered;
+}
+
+.link3 ul {
+    display: flex;
+}
+
+.link3 ul li {
+    position: relative;
+       float: left;
+}
+
+.link3 ul li > a {
+    font-size: 30px;
+    padding: 50px;
+    color: #FFFFFF;
+    font-weight: 600;
+    margin-inline: 40px;
+} 
+
+.link3 ul li > a:hover {
+          color: blue;
+}
+
+.link4 ul {
+    display: flex;
+}
+
+.link4 ul li {
+    position: relative;
+       float: left;
+}
+
+.link4 ul li > a {
+    font-size: 30px;
+    padding: 50px;
+    color: #FFFFFF;
+    font-weight: 600;
+    margin-left: 50px;
+} 
+
+.link4 ul li > a:hover {
+          color: black;
+}
